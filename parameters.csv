@@ -1,0 +1,20 @@
+dt                   ,1e-1 # [s]
+NumOfTimeStep        ,36000
+
+P_init               ,0    # [Pa]
+traction             ,-1e4 # [Pa]
+
+YoungModulus         ,1e8 # [Pa]
+PoissonRatio         ,0.25
+Permeability         ,1.02e-9 # [m4/(Ns)]
+BiotWillisCoeff      ,1.0
+SpecificStorage      ,1.65e-10 # [MPa-1]
+
+NRrtol               ,1e-5
+NRatol               ,1e-5
+NRrelaxation         ,1
+NRmax_iter           ,1000
+NRcriterion          ,incremental
+
+OutputPath           ,results
+OutputFreq           ,20
